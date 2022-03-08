@@ -14,6 +14,10 @@ h3{
   font-weight: bold;
 }
 
+p{
+  color: #8f8f8f;
+}
+
 
 /*--------Classes----------------*/
 .container-fluid{
@@ -40,16 +44,16 @@ h3{
 }
 
 .feature{
-  padding: 100px 0
+  padding:3%;
 }
 
 .feature-pic{
   padding:10px;
-  color:#ff4c68;
+  color:#ef8172;
 }
 
 .feature-pic:hover{
-  color:#f44d86;
+  color:#ff4c68;
 }
 /*-----------IDs-----------------*/
 #title {
@@ -63,4 +67,5 @@ h3{
 
 #features {
   text-align: center;
+  padding: 7% 15%
 }
