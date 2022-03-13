@@ -27,7 +27,7 @@ p{
 
 /*--------Classes----------------*/
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 10%;
 }
 
 .navbar{
@@ -75,19 +75,28 @@ p{
   /* height: 450px; */
   padding: 7% 15%;
 }
+
+.pricing-card{
+  padding: 3% 2%;
+}
+
 /*-----------IDs-----------------*/
 #title {
   background-color: #ff4c68;
 }
 
-#phone {
+.phone {
   transform: rotate(30deg);
   width: 60%;
+  position: absolute;
+  right: 30%;
 }
 
 #features {
   text-align: center;
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
 }
 
 #testimonials {
@@ -99,4 +108,9 @@ p{
 #press {
   padding: 3%;
   text-align: center;
+}
+
+#pricing {
+  text-align: center;
+  padding: 100px;
 }
