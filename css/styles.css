@@ -80,6 +80,10 @@ p{
   padding: 3% 2%;
 }
 
+.social{
+  padding:2% 1%;
+}
+
 /*-----------IDs-----------------*/
 #title {
   background-color: #ff4c68;
@@ -88,6 +92,7 @@ p{
 .phone {
   transform: rotate(30deg);
   width: 60%;
+  padding-left: 5%;
   position: absolute;
   right: 30%;
 }
@@ -113,4 +118,41 @@ p{
 #pricing {
   text-align: center;
   padding: 100px;
+}
+
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#footer{
+  background-color:white;
+  text-align: center;
+  padding:3% 15%;
+}
+
+
+/********Media Query********/
+@media (max-width:1028px){
+  .phone{
+    position:static;
+    transform: rotate(0deg);
+    right: 0px;
+    padding-left: 0px;
+  }
+
+  #title{
+    text-align: center;
+  }
+
+  #features{
+    bottom:200px;
+  }
+
+  .moveup{
+    position: relative;
+    bottom: 200px;
+  }
 }
